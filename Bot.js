@@ -30,4 +30,3 @@ else if (msg.content === 'h!logo surreal'){
 msg.channel.send(surreal_logo.jpg);}
 
 });
- client.login('NTU3OTIwMDMyNzUyMTQwMjg4.D3Pp_w.bvgaIHUKDqZYsCmlxh2NTIIO-R0');
