@@ -1,0 +1,21 @@
+{
+  "name": "hedwig",
+  "version": "1.0.0",
+  "description": "my amazing first bot",
+  "main": "Bot.js",
+  "scripts": {
+    "test": "s!ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "leave"
+  },
+  "keywords": [
+    "leave"
+  ],
+  "author": "surreal",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
