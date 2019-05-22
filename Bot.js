@@ -30,3 +30,4 @@ else if (msg.content === 'h!logo surreal'){
 msg.channel.send(surreal_logo.jpg);}
 
 });
+client.login(process.env.BOT_TOKEN);
