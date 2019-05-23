@@ -29,5 +29,9 @@ msg.channel.send("Here\'s the link \: https://www.instagram.com/surreal_30/");}
 else if (msg.content === 'h!logo surreal'){
 msg.channel.send(surreal_logo.jpg);}
 
+
+else if (msg.content === 'h!result'){
+msg.reply("Aayega toh Modi hi!");}  
+  
 });
 client.login(process.env.BOT_TOKEN);
