@@ -2,6 +2,8 @@ const Discord = require('discord.js'); const client = new Discord.Client(); clie
 
 
 client.on('message', msg=>{
+    if( !msg.author.bot) return;
+    else{
 if (msg.content === 'h!boom'){
 msg.channel.send("Bam");}
 
@@ -32,6 +34,6 @@ msg.channel.send(surreal_logo.jpg);}
 
 else if (msg.content === 'h!result'){
 msg.reply("Aayega toh Modi hi!");}  
-  
+}
 });
 client.login(process.env.BOT_TOKEN);
